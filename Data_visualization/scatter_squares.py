@@ -19,4 +19,4 @@ ax.axis([0,1001,0,1100000])
 # 设置刻度标记的大小
 ax.tick_params(axis="both",labelsize = 14)
 
-plt.show()
+plt.savefig('scatter.png',bbox_inches = 'tight')
