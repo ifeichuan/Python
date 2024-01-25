@@ -7,7 +7,7 @@ squares = [x**2 for x in input_values]
 
 plt.style.use('Solarize_Light2')
 fig,ax = plt.subplots()
-ax.scatter(input_values,squares,s=10,c=(0,0,0.8),linewidth = 1)
+ax.scatter(input_values,squares,s=10,c=input_values,cmap=plt.cm.inferno,linewidth = 1)
 
 # 设置图表标题并给坐标轴加上标签
 ax.set_title("平方数",fontsize = 24)
