@@ -6,7 +6,7 @@ y_values = [x**3 for x in x_values]
 y2_values = [x**3 for x in x2_values]
 
 fig,ax =fig,zx =  plt.subplots()
-zx.scatter(x_values,y_values)
+zx.plot(x_values,y_values,c='red',linewidth = 10)
 ax.scatter(x2_values,y2_values,c=y2_values,cmap=plt.cm.Blues,)
 
 
