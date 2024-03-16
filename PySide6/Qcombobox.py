@@ -7,6 +7,7 @@ class MyWindow(QWidget):
 
         cb = QComboBox()
         cb.addItems(['1','b','D'])
+        cb.clear()
 
         cb.currentIndexChanged.connect(lambda:print(cb.currentText()))
         mainlayout = QVBoxLayout()
