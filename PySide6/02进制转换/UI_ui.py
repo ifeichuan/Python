@@ -45,7 +45,7 @@ class Ui_Form(object):
         self.label_1.setMaximumSize(QSize(300, 16777215))
         font1 = QFont()
         font1.setFamilies([u"\u6c5f\u897f\u62d9\u69773.0"])
-        font1.setPointSize = 28
+        font1.setPointSize(28)
         font1.setBold(True)
         self.label_1.setFont(font1)
 
