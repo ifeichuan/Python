@@ -218,6 +218,7 @@ class Ui_Form(object):
         font1 = QFont()
         font1.setPointSize(48)
         self.lineEdit.setFont(font1)
+        self.lineEdit.setEchoMode(QLineEdit.Password)
         self.lineEdit.setAlignment(Qt.AlignRight|Qt.AlignTrailing|Qt.AlignVCenter)
         self.lineEdit.setReadOnly(True)
 
