@@ -1,4 +1,5 @@
 {
     "commentTranslate.source": "Google",
-    "files.defaultLanguage": "Python"
+    "files.defaultLanguage": "Python",
+    "qtForPython.designer.path": "C:\\Users\\Feich\\.virtualenvs\\Python-PmcDgZJe\\Lib\\site-packages\\PySide6\\designer.exe"
 }
